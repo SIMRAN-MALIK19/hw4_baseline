@@ -1,20 +1,29 @@
 package view;
 
-import javax.swing.*;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.event.ActionListener;
+import java.text.NumberFormat;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.JButton;
+import javax.swing.JFormattedTextField;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.JTextField;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableCellRenderer;
 
-import java.awt.*;
-import java.awt.event.ActionListener;
-import java.text.NumberFormat;
-
 import model.ExpenseTrackerModel;
 import model.ExpenseTrackerModelListener;
 import model.Transaction;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class ExpenseTrackerView extends JFrame implements ExpenseTrackerModelListener {
 
