@@ -1,3 +1,7 @@
+/**
+ * Modified the ExpenseTrackerController Class to adhere to the observer design pattern 
+ * (to make sure controller no longer updates the view directly to maintain the observer design pattern. model takes care of this directly)
+ */
 package controller;
 
 import java.util.ArrayList;
@@ -82,5 +86,5 @@ public class ExpenseTrackerController {
 
     // The undo was disallowed.
     return false;
-  }    
+  }
 }

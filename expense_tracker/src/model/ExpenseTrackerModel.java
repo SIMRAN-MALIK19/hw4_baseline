@@ -1,3 +1,7 @@
+/**
+ * Completed implementation of ExpenseTrackerModel class to follow the properties of oberver design pattern
+ *  by adding code to the following methods:register, numberOfListeners, containsListener, stateChanged
+ */
 package model;
 
 import java.util.ArrayList;
